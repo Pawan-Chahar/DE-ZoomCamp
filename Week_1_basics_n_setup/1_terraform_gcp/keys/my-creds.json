@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "qwiklabs-gcp-04-ad82aa0bab62",
+  "private_key_id": "0cb9de685bcc1c034f478e7b0910777a1bfed65f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCzYfYaM1oIH1oO\nlNTJr7d+8ZelU3HnUsKYC8z9g8Gbi/FmPQNrfyOfdVkwDaeXpWRVRHQVxw89jnv7\n+MjLcBJ5reKsmIUfcL2wWDO+jrnK3iwDDCFmSiFcb+mWIVctsgaTtTgdk2rmrEhx\n5QDSNUdGeHQW9I/cJzyvpupmu53YTiIttpNTuH8pDKviBXB/t16oMhbreZwpiNYP\nPQwsEZ604BdZfu9xAQ16fN6UpME+qUFDbVopsiMH+qoiw6mLwuuO75ADNxsX6hCz\nmJVOUwvm7kCIj+/4v8WCjdYqaFHNe5CPpkG3kAr498LKGggWysb7JXpFG2mvz2lR\nGZcN/iNHAgMBAAECgf9Q4ZGDY1rrvFu6N2EoIYBSBcE17rMj41GRPOV5+6VQNBJb\nK3CodT1RhCogXAfHM/BSgfiw/aJz1crs9mRueqwjDI1xRQrBIl2Jt/IvHiuDBBev\nkTZZexNGmp0BFFCDt8GIjwi+TSedI8gYtyjMMYLNHvBdsnoGgM8lP4tMfd4bqO25\nRc+KP5NUr28wPMoDJi/saz+AKgnoIYn5SwdzE2zzP8UvIjgUnUl6QZ4lY2nBwKJp\n+BBpFjEOHcrzRHf7MaXNk6VNXL2U9dbABd5icMaP+OS0OxsQ2BUxORPPgk8flUQT\n/95/u8QhQK0ztCxjBMcFTmXnuViMKzV4PaffbEECgYEA+5nC9w9Iap4tv2u59R0D\n7N/eRcPDcrRddQasv59kz736RoPTKf7zka6wlB/30fE084eYVeVqctfFMX6ESNKm\nOws192ZEIpMVnzv/vFnH+OwMUNXrve/8iYWzmSSTclFlUKoTl3oHCpx/dRKz3rw+\nSm0iaahzO+zF5dE3XsIFZK0CgYEAtoTuTmzcf0wxgQT2nvNQJohAHBsTEJZgkZfT\nxxm/x017B6LfybkTUmdsto2xFK788NmLFc0iO+nSo+ZU8Zjo6yKX950/jJpneHIz\nWzhLCSbZATU3oJWMF8nMVVgsr9MjU6h4KwkwVZM9fDuf8WPx00d9YjPU7csVdboi\nQi73MkMCgYEApn0WFXRogBzRuvRnJjqgCVQOem3TXIjbuv/Cuj6YcBuPjK/YwNZz\niLhnIm2RCLyrRGc6t8RKz1nWpCzLDoFN/I4rlN14QsS/rxH95T4n5KEWeTtFdvdi\nTgJKWRFp/GC+QUV6F2dpV209rlPE8KPyOD/FYNNWBZZlUfFCyZJsDTUCgYEAtSB0\nEXXs15M4aU4QpCrXtnVuEbY4lDR3PuTJ8IK4E8PrPOfAZ8J3z0X916gDPIBvWWC5\nqvf4ajafp7EzSNKzCm05HCx73T95QUkrd/IEXN+laJJ0UrM15IGJeoRXTGEeZK4C\nGssyoSnOUZQmJHpHiKEgZ60COL1Z3YvK5Z0QCVsCgYBuDM4VC4D9hcpryQT+wRkx\nhlakr88xsDD31MeWwm420+oduxoe91IPRQ7UHm838OYl84EACLyd0OfExEtucWFk\nPswOMFmVowDnCjEgMrvxWcd+3vj6jCqU+EIKtCx3aNEJFNqNDIakaxC0mcekM5MA\nKY7v3ykJfD7a6/3uIPXmAQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-bigquery-demo@qwiklabs-gcp-04-ad82aa0bab62.iam.gserviceaccount.com",
+  "client_id": "116666173375662937968",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-bigquery-demo%40qwiklabs-gcp-04-ad82aa0bab62.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

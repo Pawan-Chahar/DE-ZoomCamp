@@ -1,0 +1,6 @@
+pandas
+numpy
+pyarrow
+psycopg2
+sqlalchemy
+wget
