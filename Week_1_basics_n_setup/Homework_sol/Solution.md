@@ -1,3 +1,38 @@
+#Prepare Data for Homework Sol.
+
+Ingest data to PostgresSQL
+
+ URL="https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2019-10.parquet"
+
+  docker run -it \
+    --network=pg-network \
+    taxi_ingest:v001 \
+      --user=root \
+      --password=root \
+      --host=pg_container \
+      --port=5432 \
+      --db=ny_taxi \
+      --table_name=green_taxi_trip_data_2019_10 \
+      --url=${URL}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Question 1. Understanding docker first run
 Run docker with the python:3.12.8 image in an interactive mode, use the entrypoint bash.
 

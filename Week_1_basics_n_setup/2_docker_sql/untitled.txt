@@ -104,10 +104,28 @@ URL="https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.par
     taxi_ingest:v001 \
       --user=root \
       --password=root \
-      --host=2_docker_sql/pg_container \
+      --host=pg_container \
       --port=5432 \
       --db=ny_taxi \
       --table_name=yellow_taxi_trip_data \
       --url=${URL}
 
 
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch Week_1_basics_n_setup/2_docker_sql/ny_taxi_postgres_data/base/16384/49358' \
+--prune-empty --tag-name-filter cat -- --all
+
+
+
+URL="https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2019-10.parquet"
+
+  docker run -it \
+    --network=pg-network \
+    taxi_ingest:v001 \
+      --user=root \
+      --password=root \
+      --host=pg_container \
+      --port=5432 \
+      --db=ny_taxi \
+      --table_name=green_taxi_trip_data_2019_10 \
+      --url=${URL}
